@@ -1,0 +1,72 @@
+main{
+  min-height: 80vh;
+}
+
+h3{
+  margin: 0.5rem 0;
+}
+
+h1{
+  font-size: 1.8rem;
+}
+
+h2{
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+/* inside header */
+.set__margin{
+  margin-left: auto;
+}
+
+/* for +Create Product on admin product list */
+.align__items__right{
+  text-align: right;
+}
+
+.btn__width{
+  width: 100%;
+}
+
+.header__search{
+  display: flex;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 960px) {
+  .header__search {
+    margin-top: 20px;
+  }
+}
